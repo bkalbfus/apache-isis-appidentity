@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="appidentity-webapp-2.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target-ide/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="appidentity-application-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/appidentity-application/appidentity-application">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="appidentity-module-simple-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/appidentity-module-simple/appidentity-module-simple">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-schema-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-schema/isis-core-schema">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-plugins-jdo-datanucleus-5-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-jdo-datanucleus-5/isis-core-plugins-jdo-datanucleus-5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-runtime-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-runtime/isis-core-runtime">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-security-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-security/isis-core-security">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="appidentity-webapp"/>
+        <property name="java-output-path" value="/appidentity-webapp/target-ide/classes"/>
+    </wb-module>
+</project-modules>
