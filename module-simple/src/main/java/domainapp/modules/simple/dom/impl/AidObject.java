@@ -20,6 +20,7 @@ package domainapp.modules.simple.dom.impl;
 
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.IdentityType;
+import javax.jdo.annotations.PrimaryKey;
 import javax.jdo.annotations.VersionStrategy;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
@@ -41,10 +42,10 @@ import static org.apache.isis.applib.annotation.CommandReification.ENABLED;
 import static org.apache.isis.applib.annotation.SemanticsOf.IDEMPOTENT;
 import static org.apache.isis.applib.annotation.SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE;
 
-@javax.jdo.annotations.PersistenceCapable(identityType=IdentityType.DATASTORE, schema = "simple")
-@javax.jdo.annotations.DatastoreIdentity(strategy=IdGeneratorStrategy.IDENTITY, column="id")
+@javax.jdo.annotations.PersistenceCapable(identityType=IdentityType.APPLICATION, objectIdClass=AidObjectPK.class,  schema = "simple")
+//@javax.jdo.annotations.DatastoreIdentity(strategy=IdGeneratorStrategy.IDENTITY, column="id")
 @javax.jdo.annotations.Version(strategy= VersionStrategy.DATE_TIME, column="version")
-@javax.jdo.annotations.Unique(name="AidObject_name_UNQ", members = {"name"})
+//@javax.jdo.annotations.Unique(name="AidObject_name_UNQ", members = {"name"})
 @DomainObject(auditing = Auditing.ENABLED)
 @DomainObjectLayout()  // causes UI events to be triggered
 @lombok.RequiredArgsConstructor
@@ -55,6 +56,7 @@ public class AidObject implements Comparable<AidObject> {
         return "Object: " + getName();
     }
 
+    @PrimaryKey
     @lombok.Getter @lombok.Setter @lombok.NonNull
     @Name private String name;
 

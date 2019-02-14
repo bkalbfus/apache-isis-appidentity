@@ -9,6 +9,7 @@ domainapp\modules\simple\dom\impl\SimpleObjects$CreateDomainEvent.class
 domainapp\modules\simple\dom\types\Name$NoExclamationMarks.class
 domainapp\modules\simple\fixture\SimpleObject_persona$PersistAll.class
 domainapp\modules\simple\SimpleModule$1.class
+domainapp\modules\simple\dom\impl\AidObjectPK.class
 domainapp\modules\simple\dom\impl\QAidObject.class
 domainapp\modules\simple\SimpleModule.class
 domainapp\modules\simple\SimpleModuleManifest.class

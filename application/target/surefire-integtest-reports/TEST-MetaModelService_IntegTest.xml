@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MetaModelService_IntegTest" time="3.12" tests="2" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MetaModelService_IntegTest" time="3.047" tests="2" errors="0" skipped="2" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\bkalbfus\AppData\Local\Temp\surefire4052423216260865698\surefirebooter1001951029920553927.jar C:\Users\bkalbfus\AppData\Local\Temp\surefire4052423216260865698 2019-02-12T11-58-57_805-jvmRun1 surefire3081419478594700896tmp surefire_27763148497973571116tmp"/>
+    <property name="sun.java.command" value="C:\Users\bkalbfus\AppData\Local\Temp\surefire1462680970226635289\surefirebooter6012815598537784957.jar C:\Users\bkalbfus\AppData\Local\Temp\surefire1462680970226635289 2019-02-14T09-16-36_375-jvmRun1 surefire3332325744133965366tmp surefire_28777002913478112847tmp"/>
     <property name="surefire.test.class.path" value="C:\mvn\appidentity\application\target\test-classes;C:\mvn\appidentity\application\target\classes;C:\mvn\appidentity\module-simple\target\appidentity-module-simple-2.0-SNAPSHOT.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-applib\2.0.0-M2\isis-core-applib-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-commons\2.0.0-M2\isis-core-commons-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\bkalbfus\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\bkalbfus\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\bkalbfus\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-schema\2.0.0-M2\isis-core-schema-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\joda-time\joda-time\2.9.4\joda-time-2.9.4.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-plugins-eventbus-axon\2.0.0-M2\isis-core-plugins-eventbus-axon-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\axonframework\axon-core\3.4\axon-core-3.4-ee-compat.jar;C:\Users\bkalbfus\.m2\repository\com\thoughtworks\xstream\xstream\1.4.10\xstream-1.4.10.jar;C:\Users\bkalbfus\.m2\repository\xpp3\xpp3\1.1.4c\xpp3-1.1.4c.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-runtime\2.0.0-M2\isis-core-runtime-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-log4j\2.0.0-M2\isis-core-log4j-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-metamodel\2.0.0-M2\isis-core-metamodel-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\io\swagger\swagger-core\1.5.21\swagger-core-1.5.21.jar;C:\Users\bkalbfus\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.9.5\jackson-dataformat-yaml-2.9.5.jar;C:\Users\bkalbfus\.m2\repository\org\yaml\snakeyaml\1.18\snakeyaml-1.18.jar;C:\Users\bkalbfus\.m2\repository\io\swagger\swagger-models\1.5.21\swagger-models-1.5.21.jar;C:\Users\bkalbfus\.m2\repository\io\swagger\swagger-annotations\1.5.21\swagger-annotations-1.5.21.jar;C:\Users\bkalbfus\.m2\repository\org\slf4j\slf4j-log4j12\1.7.21\slf4j-log4j12-1.7.21.jar;C:\Users\bkalbfus\.m2\repository\org\apache\commons\commons-email\1.4\commons-email-1.4.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-plugins-codegen-bytebuddy\2.0.0-M2\isis-core-plugins-codegen-bytebuddy-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\net\bytebuddy\byte-buddy\1.9.2\byte-buddy-1.9.2.jar;C:\Users\bkalbfus\.m2\repository\org\objenesis\objenesis\2.4\objenesis-2.4.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-plugins-discovery-reflections\2.0.0-M2\isis-core-plugins-discovery-reflections-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\bkalbfus\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\bkalbfus\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-plugins-jdo-datanucleus-5\2.0.0-M2\isis-core-plugins-jdo-datanucleus-5-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m10\javax.jdo-3.2.0-m10.jar;C:\Users\bkalbfus\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar;C:\Users\bkalbfus\.m2\repository\org\datanucleus\datanucleus-core\5.2.0-m2\datanucleus-core-5.2.0-m2.jar;C:\Users\bkalbfus\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.2.0-m2\datanucleus-api-jdo-5.2.0-m2.jar;C:\Users\bkalbfus\.m2\repository\org\datanucleus\datanucleus-jdo-query\5.0.8\datanucleus-jdo-query-5.0.8.jar;C:\Users\bkalbfus\.m2\repository\org\datanucleus\datanucleus-rdbms\5.2.0-m2\datanucleus-rdbms-5.2.0-m2.jar;C:\Users\bkalbfus\.m2\repository\org\datanucleus\datanucleus-jodatime\5.2.0-m1\datanucleus-jodatime-5.2.0-m1.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-plugins-jaxrs-resteasy-3\2.0.0-M2\isis-core-plugins-jaxrs-resteasy-3-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-viewer-restfulobjects-rendering\2.0.0-M2\isis-core-viewer-restfulobjects-rendering-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-viewer-restfulobjects-applib\2.0.0-M2\isis-core-viewer-restfulobjects-applib-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-viewer-restfulobjects-server\2.0.0-M2\isis-core-viewer-restfulobjects-server-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\resteasy\resteasy-jaxb-provider\3.1.4.Final\resteasy-jaxb-provider-3.1.4.Final.jar;C:\Users\bkalbfus\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.7\jaxb-impl-2.2.7.jar;C:\Users\bkalbfus\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.7\jaxb-core-2.2.7.jar;C:\Users\bkalbfus\.m2\repository\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;C:\Users\bkalbfus\.m2\repository\com\sun\istack\istack-commons-runtime\2.16\istack-commons-runtime-2.16.jar;C:\Users\bkalbfus\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.12\FastInfoset-1.2.12.jar;C:\Users\bkalbfus\.m2\repository\javax\xml\bind\jsr173_api\1.0\jsr173_api-1.0.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\resteasy\resteasy-jackson-provider\3.1.4.Final\resteasy-jackson-provider-3.1.4.Final.jar;C:\Users\bkalbfus\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\bkalbfus\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\bkalbfus\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.13\jackson-jaxrs-1.9.13.jar;C:\Users\bkalbfus\.m2\repository\org\codehaus\jackson\jackson-xc\1.9.13\jackson-xc-1.9.13.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\resteasy\resteasy-jaxrs\3.1.4.Final\resteasy-jaxrs-3.1.4.Final.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\spec\javax\ws\rs\jboss-jaxrs-api_2.0_spec\1.0.0.Final\jboss-jaxrs-api_2.0_spec-1.0.0.Final.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\resteasy\resteasy-jaxrs-services\3.1.4.Final\resteasy-jaxrs-services-3.1.4.Final.jar;C:\Users\bkalbfus\.m2\repository\org\jboss\spec\javax\annotation\jboss-annotations-api_1.2_spec\1.0.0.Final\jboss-annotations-api_1.2_spec-1.0.0.Final.jar;C:\Users\bkalbfus\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\bkalbfus\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\bkalbfus\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\bkalbfus\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bkalbfus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.0\jackson-core-2.8.0.jar;C:\Users\bkalbfus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.0\jackson-databind-2.8.0.jar;C:\Users\bkalbfus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\bkalbfus\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.8.0\jackson-module-jaxb-annotations-2.8.0.jar;C:\mvn\appidentity\module-simple\target\appidentity-module-simple-2.0-SNAPSHOT-tests.jar;C:\Users\bkalbfus\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-unittestsupport\2.0.0-M2\isis-core-unittestsupport-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;C:\Users\bkalbfus\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\bkalbfus\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\bkalbfus\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\bkalbfus\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\bkalbfus\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\bkalbfus\.m2\repository\org\junit\vintage\junit-vintage-engine\5.3.1\junit-vintage-engine-5.3.1.jar;C:\Users\bkalbfus\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\bkalbfus\.m2\repository\org\jmock\jmock\2.6.0\jmock-2.6.0.jar;C:\Users\bkalbfus\.m2\repository\org\jmock\jmock-junit4\2.6.0\jmock-junit4-2.6.0.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-integtestsupport\2.0.0-M2\isis-core-integtestsupport-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-security\2.0.0-M2\isis-core-security-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-config\2.0.0-M2\isis-core-config-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\bkalbfus\.m2\repository\org\apache\isis\core\isis-core-specsupport\2.0.0-M2\isis-core-specsupport-2.0.0-M2.jar;C:\Users\bkalbfus\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\bkalbfus\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\bkalbfus\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\bkalbfus\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\bkalbfus\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\bkalbfus\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar;C:\Users\bkalbfus\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\bkalbfus\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\bkalbfus\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bkalbfus\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\bkalbfus\.m2\repository\com\approvaltests\approvaltests\2.0.0\approvaltests-2.0.0.jar;C:\Users\bkalbfus\.m2\repository\com\approvaltests\approvaltests-util\2.0.0\approvaltests-util-2.0.0.jar;C:\Users\bkalbfus\.m2\repository\org\hsqldb\hsqldb\2.4.1\hsqldb-2.4.1.jar;C:\Users\bkalbfus\.m2\repository\org\projectlombok\lombok\1.18.2\lombok-1.18.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\bkalbfus"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\bkalbfus\AppData\Local\Temp\surefire4052423216260865698\surefirebooter1001951029920553927.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\bkalbfus\AppData\Local\Temp\surefire1462680970226635289\surefirebooter6012815598537784957.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -65,44 +65,45 @@
     <skipped message="got: null, expected: is not null" type="org.junit.AssumptionViolatedException">org.junit.AssumptionViolatedException: got: null, expected: is not null
 	at domainapp.application.integtests.mml.MetaModelService_IntegTest._2_verify(MetaModelService_IntegTest.java:96)
 </skipped>
-    <system-out><![CDATA[11:59:11,567  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
-11:59:11,608  [IsisConfiguration    main       INFO ]  === BUILT/DONE ===
-11:59:11,609  [ModulePackageHelper  main       INFO ]  Discover the application's domain and register all types using manifest 'org.apache.isis.config.builder.IsisConfigurationBuilderDefault$1' ...
-11:59:11,832  [Reflections          main       INFO ]  Reflections took 190 ms to scan 12 urls, producing 318 keys and 1056 values 
-11:59:11,981  [ServicesInstallerFromConfigurationAndAnnotation main       INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfigurationAndAnnotation
-11:59:12,396  [IsisSessionFactoryBuilder main       INFO ]  initialising Isis System
-11:59:12,396  [IsisSessionFactoryBuilder main       INFO ]  working directory: C:\mvn\appidentity\application\.
-11:59:12,396  [IsisSessionFactoryBuilder main       INFO ]  resource stream source: chain []
-11:59:12,578  [SpecificationLoader  Thread-1   INFO ]  Loading all specs (up to state of NOT_INTROSPECTED)
-11:59:12,624  [PersistenceSessionFactory5 Thread-2   INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
-11:59:12,870  [SpecificationLoader  Thread-1   INFO ]  Introspecting all specs up to TYPE_INTROSPECTED
-11:59:13,403  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 139 tasks: waited 0.08995199999999999 milliseconds 
-11:59:13,403  [SpecificationLoader  Thread-1   INFO ]  Introspecting domainService specs up to TYPE_AND_MEMBERS_INTROSPECTED
-11:59:13,665  [Schema               Thread-2   DEBUG]  Adding/Dropping temporary table so we can determine the catalog/schema for this datasource. Specify "datanucleus.mapping.Catalog"/"datanucleus.mapping.Schema" to avoid this check
-11:59:13,698  [Schema               Thread-2   DEBUG]  CREATE TABLE "DELETEME1550005153673"
+    <system-out><![CDATA[09:16:49,832  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
+09:16:49,875  [IsisConfiguration    main       INFO ]  === BUILT/DONE ===
+09:16:49,876  [ModulePackageHelper  main       INFO ]  Discover the application's domain and register all types using manifest 'org.apache.isis.config.builder.IsisConfigurationBuilderDefault$1' ...
+09:16:50,094  [Reflections          main       INFO ]  Reflections took 183 ms to scan 12 urls, producing 318 keys and 1055 values 
+09:16:50,236  [ServicesInstallerFromConfigurationAndAnnotation main       INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfigurationAndAnnotation
+09:16:50,623  [IsisSessionFactoryBuilder main       INFO ]  initialising Isis System
+09:16:50,623  [IsisSessionFactoryBuilder main       INFO ]  working directory: C:\mvn\appidentity\application\.
+09:16:50,623  [IsisSessionFactoryBuilder main       INFO ]  resource stream source: chain []
+09:16:50,810  [SpecificationLoader  Thread-1   INFO ]  Loading all specs (up to state of NOT_INTROSPECTED)
+09:16:50,853  [PersistenceSessionFactory5 Thread-2   INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
+09:16:50,939  [SpecificationLoader  Thread-1   INFO ]  Introspecting all specs up to TYPE_INTROSPECTED
+09:16:51,499  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 139 tasks: waited 0.087235 milliseconds 
+09:16:51,499  [SpecificationLoader  Thread-1   INFO ]  Introspecting domainService specs up to TYPE_AND_MEMBERS_INTROSPECTED
+09:16:51,807  [Schema               Thread-2   DEBUG]  Adding/Dropping temporary table so we can determine the catalog/schema for this datasource. Specify "datanucleus.mapping.Catalog"/"datanucleus.mapping.Schema" to avoid this check
+09:16:51,841  [Schema               Thread-2   DEBUG]  CREATE TABLE "DELETEME1550168211814"
 (
     "UNUSED" INTEGER NOT NULL
 )
-11:59:13,699  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
-11:59:13,711  [Schema               Thread-2   DEBUG]  DROP TABLE "DELETEME1550005153673"
-11:59:13,712  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
-11:59:13,773  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 90 tasks: waited 0.048598999999999996 milliseconds 
-11:59:13,773  [SpecificationLoader  Thread-1   INFO ]  Introspecting mixin specs up to TYPE_AND_MEMBERS_INTROSPECTED
-11:59:13,780  [Schema               Thread-2   DEBUG]  Field [DATASTORE_ID] -> Column(s) ["simple"."AidObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.column.BigIntColumnMapping)
-11:59:13,783  [Schema               Thread-2   DEBUG]  Field [DATASTORE_ID] -> Column(s) ["simple"."SimpleObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.column.BigIntColumnMapping)
-11:59:13,784  [Schema               Thread-2   DEBUG]  Table "simple"."SimpleObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.SimpleObject (inheritance strategy="new-table") 
-11:59:13,786  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.name] -> Column(s) ["simple"."SimpleObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,787  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.notes] -> Column(s) ["simple"."SimpleObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,787  [Schema               Thread-2   DEBUG]  Field [VERSION] -> Column(s) ["simple"."SimpleObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
-11:59:13,787  [Schema               Thread-2   DEBUG]  Table/View "simple"."SimpleObject" has been initialised
-11:59:13,788  [Schema               Thread-2   DEBUG]  Table "simple"."AidObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.AidObject (inheritance strategy="new-table") 
-11:59:13,788  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.name] -> Column(s) ["simple"."AidObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,788  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.notes] -> Column(s) ["simple"."AidObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,788  [Schema               Thread-2   DEBUG]  Field [VERSION] -> Column(s) ["simple"."AidObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
-11:59:13,788  [Schema               Thread-2   DEBUG]  Table/View "simple"."AidObject" has been initialised
-11:59:13,789  [Schema               Thread-2   DEBUG]  Schema Transaction STARTED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@5688e783" with isolation "serializable"
-11:59:13,794  [Schema               Thread-2   DEBUG]  Check of existence of "simple"."SimpleObject" returned no table
-11:59:13,795  [Schema               Thread-2   DEBUG]  CREATE TABLE "simple"."SimpleObject"
+09:16:51,843  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
+09:16:51,860  [Schema               Thread-2   DEBUG]  DROP TABLE "DELETEME1550168211814"
+09:16:51,861  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
+09:16:51,915  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 90 tasks: waited 0.044372999999999996 milliseconds 
+09:16:51,915  [SpecificationLoader  Thread-1   INFO ]  Introspecting mixin specs up to TYPE_AND_MEMBERS_INTROSPECTED
+09:16:51,946  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 11 tasks: waited 0.005131 milliseconds 
+09:16:51,946  [SpecificationLoader  Thread-1   INFO ]  Introspecting all cached specs up to TYPE_AND_MEMBERS_INTROSPECTED
+09:16:51,956  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.name] -> Column(s) ["simple"."AidObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:51,959  [Schema               Thread-2   DEBUG]  Field [DATASTORE_ID] -> Column(s) ["simple"."SimpleObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.column.BigIntColumnMapping)
+09:16:51,961  [Schema               Thread-2   DEBUG]  Table "simple"."SimpleObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.SimpleObject (inheritance strategy="new-table") 
+09:16:51,961  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.name] -> Column(s) ["simple"."SimpleObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:51,961  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.notes] -> Column(s) ["simple"."SimpleObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:51,962  [Schema               Thread-2   DEBUG]  Field [VERSION] -> Column(s) ["simple"."SimpleObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
+09:16:51,962  [Schema               Thread-2   DEBUG]  Table/View "simple"."SimpleObject" has been initialised
+09:16:51,962  [Schema               Thread-2   DEBUG]  Table "simple"."AidObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.AidObject (inheritance strategy="new-table") 
+09:16:51,962  [Schema               Thread-2   DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.notes] -> Column(s) ["simple"."AidObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:51,963  [Schema               Thread-2   DEBUG]  Field [VERSION] -> Column(s) ["simple"."AidObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
+09:16:51,963  [Schema               Thread-2   DEBUG]  Table/View "simple"."AidObject" has been initialised
+09:16:51,964  [Schema               Thread-2   DEBUG]  Schema Transaction STARTED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@385f2f9a" with isolation "serializable"
+09:16:51,971  [Schema               Thread-2   DEBUG]  Check of existence of "simple"."SimpleObject" returned no table
+09:16:51,972  [Schema               Thread-2   DEBUG]  CREATE TABLE "simple"."SimpleObject"
 (
     "id" BIGINT GENERATED BY DEFAULT AS IDENTITY,
     "name" VARCHAR(40) NOT NULL,
@@ -110,79 +111,73 @@
     "version" TIMESTAMP NOT NULL,
     CONSTRAINT "SimpleObject_PK" PRIMARY KEY ("id")
 )
-11:59:13,796  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
-11:59:13,796  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 11 tasks: waited 0.004226 milliseconds 
-11:59:13,796  [SpecificationLoader  Thread-1   INFO ]  Introspecting all cached specs up to TYPE_AND_MEMBERS_INTROSPECTED
-11:59:13,799  [Schema               Thread-2   DEBUG]  Loading column info for table(s) "SimpleObject" in Catalog "", Schema "simple"
-11:59:13,834  [Schema               Thread-2   DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 36 ms
-11:59:13,834  [Schema               Thread-2   DEBUG]  Column info retrieved for table "SimpleObject" : 4 columns found
-11:59:13,835  [Schema               Thread-2   DEBUG]  Check of existence of "simple"."AidObject" returned no table
-11:59:13,836  [Schema               Thread-2   DEBUG]  CREATE TABLE "simple"."AidObject"
+09:16:51,973  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
+09:16:51,979  [Schema               Thread-2   DEBUG]  Loading column info for table(s) "SimpleObject" in Catalog "", Schema "simple"
+09:16:52,013  [Schema               Thread-2   DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 34 ms
+09:16:52,014  [Schema               Thread-2   DEBUG]  Column info retrieved for table "SimpleObject" : 4 columns found
+09:16:52,015  [Schema               Thread-2   DEBUG]  Check of existence of "simple"."AidObject" returned no table
+09:16:52,015  [Schema               Thread-2   DEBUG]  CREATE TABLE "simple"."AidObject"
 (
-    "id" BIGINT GENERATED BY DEFAULT AS IDENTITY,
     "name" VARCHAR(40) NOT NULL,
     "notes" VARCHAR(4000) NULL,
     "version" TIMESTAMP NOT NULL,
-    CONSTRAINT "AidObject_PK" PRIMARY KEY ("id")
+    CONSTRAINT "AidObject_PK" PRIMARY KEY ("name")
 )
-11:59:13,837  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
-11:59:13,839  [Schema               Thread-2   DEBUG]  Loading column info for table(s) "AidObject" in Catalog "", Schema "simple"
-11:59:13,859  [Schema               Thread-2   DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 20 ms
-11:59:13,859  [Schema               Thread-2   DEBUG]  Column info retrieved for table "AidObject" : 4 columns found
-11:59:13,862  [Schema               Thread-2   DEBUG]  ALTER TABLE "simple"."SimpleObject" ADD CONSTRAINT "SimpleObject_name_UNQ" UNIQUE ("name")
-11:59:13,864  [Schema               Thread-2   DEBUG]  SQL Execution Time = 2 ms
-11:59:13,865  [Schema               Thread-2   DEBUG]  ALTER TABLE "simple"."AidObject" ADD CONSTRAINT "AidObject_name_UNQ" UNIQUE ("name")
-11:59:13,866  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
-11:59:13,866  [Schema               Thread-2   DEBUG]  Schema Transaction COMMITTING with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@5688e783"
-11:59:13,866  [Schema               Thread-2   DEBUG]  Schema Transaction CLOSED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@5688e783"
-11:59:13,883  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 191 tasks: waited 0.030185 milliseconds 
-11:59:13,883  [SpecificationLoader  Thread-1   INFO ]  init() - done
-11:59:13,883  [ThreadPoolSupport    main       INFO ]  join'ing 5 tasks: waited 0.0033209999999999997 milliseconds 
-11:59:13,892  [PersistenceSessionFactory5 main       INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
-11:59:13,932  [Schema               main       DEBUG]  Adding/Dropping temporary table so we can determine the catalog/schema for this datasource. Specify "datanucleus.mapping.Catalog"/"datanucleus.mapping.Schema" to avoid this check
-11:59:13,932  [Schema               main       DEBUG]  CREATE TABLE "DELETEME1550005153932"
+09:16:52,016  [Schema               Thread-2   DEBUG]  SQL Execution Time = 1 ms
+09:16:52,018  [Schema               Thread-2   DEBUG]  Loading column info for table(s) "AidObject" in Catalog "", Schema "simple"
+09:16:52,044  [Schema               Thread-2   DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 26 ms
+09:16:52,044  [Schema               Thread-2   DEBUG]  Column info retrieved for table "AidObject" : 3 columns found
+09:16:52,046  [Schema               Thread-2   DEBUG]  ALTER TABLE "simple"."SimpleObject" ADD CONSTRAINT "SimpleObject_name_UNQ" UNIQUE ("name")
+09:16:52,048  [Schema               Thread-2   DEBUG]  SQL Execution Time = 2 ms
+09:16:52,048  [Schema               Thread-2   DEBUG]  Schema Transaction COMMITTING with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@385f2f9a"
+09:16:52,049  [Schema               Thread-2   DEBUG]  Schema Transaction CLOSED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@385f2f9a"
+09:16:52,053  [ThreadPoolSupport    Thread-1   INFO ]  join'ing 191 tasks: waited 0.03924 milliseconds 
+09:16:52,053  [SpecificationLoader  Thread-1   INFO ]  init() - done
+09:16:52,054  [ThreadPoolSupport    main       INFO ]  join'ing 5 tasks: waited 0.007547 milliseconds 
+09:16:52,061  [PersistenceSessionFactory5 main       INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
+09:16:52,098  [Schema               main       DEBUG]  Adding/Dropping temporary table so we can determine the catalog/schema for this datasource. Specify "datanucleus.mapping.Catalog"/"datanucleus.mapping.Schema" to avoid this check
+09:16:52,098  [Schema               main       DEBUG]  CREATE TABLE "DELETEME1550168212098"
 (
     "UNUSED" INTEGER NOT NULL
 )
-11:59:13,932  [Schema               main       DEBUG]  SQL Execution Time = 0 ms
-11:59:13,933  [Schema               main       DEBUG]  DROP TABLE "DELETEME1550005153932"
-11:59:13,934  [Schema               main       DEBUG]  SQL Execution Time = 1 ms
-11:59:13,946  [Schema               main       DEBUG]  Field [DATASTORE_ID] -> Column(s) ["simple"."AidObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.column.BigIntColumnMapping)
-11:59:13,947  [Schema               main       DEBUG]  Field [DATASTORE_ID] -> Column(s) ["simple"."SimpleObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.column.BigIntColumnMapping)
-11:59:13,947  [Schema               main       DEBUG]  Table "simple"."SimpleObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.SimpleObject (inheritance strategy="new-table") 
-11:59:13,947  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.name] -> Column(s) ["simple"."SimpleObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,947  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.notes] -> Column(s) ["simple"."SimpleObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,947  [Schema               main       DEBUG]  Field [VERSION] -> Column(s) ["simple"."SimpleObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
-11:59:13,947  [Schema               main       DEBUG]  Table/View "simple"."SimpleObject" has been initialised
-11:59:13,947  [Schema               main       DEBUG]  Table "simple"."AidObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.AidObject (inheritance strategy="new-table") 
-11:59:13,948  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.name] -> Column(s) ["simple"."AidObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,948  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.notes] -> Column(s) ["simple"."AidObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
-11:59:13,948  [Schema               main       DEBUG]  Field [VERSION] -> Column(s) ["simple"."AidObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
-11:59:13,948  [Schema               main       DEBUG]  Table/View "simple"."AidObject" has been initialised
-11:59:13,948  [Schema               main       DEBUG]  Schema Transaction STARTED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@105b693d" with isolation "serializable"
-11:59:13,950  [Schema               main       DEBUG]  Check of existence of "simple"."SimpleObject" returned table type of TABLE
-11:59:13,950  [Schema               main       DEBUG]  Loading column info for table(s) "SimpleObject" in Catalog "", Schema "simple"
-11:59:13,967  [Schema               main       DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 17 ms
-11:59:13,967  [Schema               main       DEBUG]  Column info retrieved for table "SimpleObject" : 4 columns found
-11:59:13,968  [Schema               main       DEBUG]  Check of existence of "simple"."AidObject" returned table type of TABLE
-11:59:13,968  [Schema               main       DEBUG]  Loading column info for table(s) "AidObject" in Catalog "", Schema "simple"
-11:59:13,969  [Schema               main       DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 1 ms
-11:59:13,969  [Schema               main       DEBUG]  Column info retrieved for table "AidObject" : 4 columns found
-11:59:13,972  [Schema               main       DEBUG]  Validating 2 unique key(s) for table "simple"."SimpleObject"
-11:59:13,975  [Schema               main       DEBUG]  Validating 0 foreign key(s) for table "simple"."SimpleObject"
-11:59:13,976  [Schema               main       DEBUG]  Validating 2 index(es) for table "simple"."SimpleObject"
-11:59:13,977  [Schema               main       DEBUG]  Validating 2 unique key(s) for table "simple"."AidObject"
-11:59:13,978  [Schema               main       DEBUG]  Validating 0 foreign key(s) for table "simple"."AidObject"
-11:59:13,979  [Schema               main       DEBUG]  Validating 2 index(es) for table "simple"."AidObject"
-11:59:13,979  [Schema               main       DEBUG]  Schema Transaction COMMITTING with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@105b693d"
-11:59:13,980  [Schema               main       DEBUG]  Schema Transaction CLOSED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@105b693d"
-11:59:14,057  [ServiceInitializer   main       INFO ]  calling @PostConstruct on all domain services
-11:59:14,204  [EmailServiceDefault  main       WARN ]  NOT configured
-11:59:14,305  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
-11:59:14,306  [IsisSystemBootstrapper main       INFO ]  # Bootstrapped in 2339 millis
-11:59:14,306  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
+09:16:52,099  [Schema               main       DEBUG]  SQL Execution Time = 1 ms
+09:16:52,100  [Schema               main       DEBUG]  DROP TABLE "DELETEME1550168212098"
+09:16:52,101  [Schema               main       DEBUG]  SQL Execution Time = 0 ms
+09:16:52,120  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.name] -> Column(s) ["simple"."AidObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:52,120  [Schema               main       DEBUG]  Field [DATASTORE_ID] -> Column(s) ["simple"."SimpleObject"."id"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.column.BigIntColumnMapping)
+09:16:52,120  [Schema               main       DEBUG]  Table "simple"."SimpleObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.SimpleObject (inheritance strategy="new-table") 
+09:16:52,120  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.name] -> Column(s) ["simple"."SimpleObject"."name"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:52,120  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.SimpleObject.notes] -> Column(s) ["simple"."SimpleObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:52,120  [Schema               main       DEBUG]  Field [VERSION] -> Column(s) ["simple"."SimpleObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
+09:16:52,121  [Schema               main       DEBUG]  Table/View "simple"."SimpleObject" has been initialised
+09:16:52,121  [Schema               main       DEBUG]  Table "simple"."AidObject" will manage the persistence of the fields for class domainapp.modules.simple.dom.impl.AidObject (inheritance strategy="new-table") 
+09:16:52,121  [Schema               main       DEBUG]  Field [domainapp.modules.simple.dom.impl.AidObject.notes] -> Column(s) ["simple"."AidObject"."notes"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.column.VarCharColumnMapping)
+09:16:52,121  [Schema               main       DEBUG]  Field [VERSION] -> Column(s) ["simple"."AidObject"."version"] using mapping of type "org.datanucleus.store.rdbms.mapping.java.VersionMapping$VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.column.TimestampColumnMapping)
+09:16:52,121  [Schema               main       DEBUG]  Table/View "simple"."AidObject" has been initialised
+09:16:52,121  [Schema               main       DEBUG]  Schema Transaction STARTED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@9255c05" with isolation "serializable"
+09:16:52,123  [Schema               main       DEBUG]  Check of existence of "simple"."SimpleObject" returned table type of TABLE
+09:16:52,123  [Schema               main       DEBUG]  Loading column info for table(s) "SimpleObject" in Catalog "", Schema "simple"
+09:16:52,149  [Schema               main       DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 26 ms
+09:16:52,149  [Schema               main       DEBUG]  Column info retrieved for table "SimpleObject" : 4 columns found
+09:16:52,150  [Schema               main       DEBUG]  Check of existence of "simple"."AidObject" returned table type of TABLE
+09:16:52,150  [Schema               main       DEBUG]  Loading column info for table(s) "AidObject" in Catalog "", Schema "simple"
+09:16:52,151  [Schema               main       DEBUG]  Column info loaded for Catalog "", Schema "simple", 1 tables, time = 1 ms
+09:16:52,151  [Schema               main       DEBUG]  Column info retrieved for table "AidObject" : 3 columns found
+09:16:52,153  [Schema               main       DEBUG]  Validating 2 unique key(s) for table "simple"."SimpleObject"
+09:16:52,155  [Schema               main       DEBUG]  Validating 0 foreign key(s) for table "simple"."SimpleObject"
+09:16:52,157  [Schema               main       DEBUG]  Validating 2 index(es) for table "simple"."SimpleObject"
+09:16:52,157  [Schema               main       DEBUG]  Validating 1 unique key(s) for table "simple"."AidObject"
+09:16:52,158  [Schema               main       DEBUG]  Validating 0 foreign key(s) for table "simple"."AidObject"
+09:16:52,159  [Schema               main       DEBUG]  Validating 1 index(es) for table "simple"."AidObject"
+09:16:52,159  [Schema               main       DEBUG]  Schema Transaction COMMITTING with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@9255c05"
+09:16:52,159  [Schema               main       DEBUG]  Schema Transaction CLOSED with connection "org.datanucleus.store.rdbms.datasource.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper@9255c05"
+09:16:52,245  [ServiceInitializer   main       INFO ]  calling @PostConstruct on all domain services
+09:16:52,393  [EmailServiceDefault  main       WARN ]  NOT configured
+09:16:52,505  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
+09:16:52,505  [IsisSystemBootstrapper main       INFO ]  # Bootstrapped in 2282 millis
+09:16:52,505  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$1
-11:59:14,328  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
+09:16:52,522  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$2
 /                                                           : EXEC domainapp.modules.simple.SimpleModule$1
 ]]></system-out>
@@ -191,12 +186,12 @@
     <skipped message="got: null, expected: is not null" type="org.junit.AssumptionViolatedException">org.junit.AssumptionViolatedException: got: null, expected: is not null
 	at domainapp.application.integtests.mml.MetaModelService_IntegTest._1_learn(MetaModelService_IntegTest.java:62)
 </skipped>
-    <system-out><![CDATA[11:59:14,370  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
-11:59:14,370  [IsisConfiguration    main       INFO ]  === BUILT/DONE ===
-11:59:14,371  [ModulePackageHelper  main       INFO ]  Discover the application's domain and register all types using manifest 'org.apache.isis.config.builder.IsisConfigurationBuilderDefault$1' ...
-11:59:14,496  [Reflections          main       INFO ]  Reflections took 122 ms to scan 12 urls, producing 318 keys and 1056 values 
+    <system-out><![CDATA[09:16:52,559  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
+09:16:52,559  [IsisConfiguration    main       INFO ]  === BUILT/DONE ===
+09:16:52,560  [ModulePackageHelper  main       INFO ]  Discover the application's domain and register all types using manifest 'org.apache.isis.config.builder.IsisConfigurationBuilderDefault$1' ...
+09:16:52,674  [Reflections          main       INFO ]  Reflections took 110 ms to scan 12 urls, producing 318 keys and 1055 values 
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$1
-11:59:14,501  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
+09:16:52,679  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$2
 /                                                           : EXEC domainapp.modules.simple.SimpleModule$1
 ]]></system-out>
